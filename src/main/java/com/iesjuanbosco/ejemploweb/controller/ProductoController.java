@@ -27,6 +27,7 @@ public class ProductoController {
         model.addAttribute("productos", productos);
         return "producto-list";
     }
+    //COmentario de prueba
     @GetMapping("/productos/add")
     public String add() {
         List<Producto> productos=new ArrayList<Producto>();
